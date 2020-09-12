@@ -1,0 +1,20 @@
+Type, Value, Quantity, Info
+capacitor, 47nf, 2, 63v polyester
+capacitor, 100nf, 3, ceramic
+capacitor, 22uf, 2, 50V electrolytic
+capacitor, 100nf, 2, ceramic X7R
+connector, 8-pin, 1, ic socket
+connector, 14-pin, 2, ic socket
+diode, 1n4148, 4,
+chip, tl072, 1, dual jfet opamp
+chip, tl074, 2, quad jfet opamp
+inductor, 0.45uh, 2, 7A ferrite bead
+resistor, 1k0, 12, 1% 0.5w metal film
+resistor, 2k2, 2, 1% 0.5w metal film
+resistor, 3k9, 2, 1% 0.5w metal film
+resistor, 4k7, 2, 1% 0.5w metal film
+resistor, 10k, 2, 1% 0.5w metal film
+resistor, 47k, 2, 1% 0.5w metal film
+resistor, 100k, 6, 1% 0.5w metal film
+resistor, 150k, 2, 1% 0.5w metal film
+transistor, bc547b, 2, npn transistor
