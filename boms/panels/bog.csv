@@ -4,6 +4,6 @@ cgs09, 1, VC Divider
 cgs29, 1, Wave Multiplier
 cgs348, 2, VCO
 cgs58, 1, Utility LFO
-cgs64, 2, VCA
+cgs364, 2, VCA
 cgs514, 2, USG
 cgs577, 1, 73 VCF
