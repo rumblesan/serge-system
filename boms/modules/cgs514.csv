@@ -9,8 +9,8 @@ connector, 14-pin, 2, ic socket,
 connector, kk396 4-way locking header, 1, power connector, 1675500
 connector, kk396 4-way crimp housing, 1, power connector, 1756754
 connector, kk396 crimp, 4, power connector, 2424108
-connector, 4-pin pcb interconnect header, 1, needed if upper board,
-connector, 4-pin pcb interconnect socket, 1, needed if lower board,
+connector, 4-pin pcb interconnect header, 1, needed if upper board, 1766138
+connector, 4-pin pcb interconnect socket, 1, needed if lower board, 1023034
 diode, 1n4148, 4,,
 diode, 5.6v zener, 1, 5% 500mw,
 chip, rc4558, 1, dual opamp,
