@@ -1,4 +1,4 @@
-Type, Value, Quantity, Info, Farnell Order Code
+type, value, quantity, info, farnell order code
 capacitor, 10nf, 1, 5% ceramic medium k,
 capacitor, 100nf, 1, ceramic,
 connector, kk396 4-way locking header, 1, power connector, 1675500

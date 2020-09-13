@@ -1,4 +1,4 @@
-Type, Value, Quantity, Info, Farnell Order Code
+type, value, quantity, info, farnell order code
 capacitor, 47pf, 4, 5% ceramic,
 capacitor, 100nf, 4, ceramic,
 capacitor, 100nf, 3, 63v polyester,

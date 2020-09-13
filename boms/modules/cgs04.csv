@@ -1,4 +1,4 @@
-Type, Value, Quantity, Info, Farnell Order Code
+type, value, quantity, info, farnell order code
 capacitor, 100nf, 2, ceramic,
 connector, 8-pin, 1, ic socket,
 chip, tl072, 1, dual jfet opamp,

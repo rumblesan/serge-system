@@ -1,4 +1,4 @@
-Module, Number, Name
+module, number, name
 cgs89, 1, Gate Sequencer
 cgs359b, 2, Programmer/Sequencer Main
 cgs359a, 8, Programmer/Sequencer Stage

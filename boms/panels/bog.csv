@@ -1,4 +1,4 @@
-Module, Number, Name
+module, number, name
 cgs04, 1, DC Mixer
 cgs09, 1, VC Divider
 cgs29, 1, Wave Multiplier
