@@ -1,0 +1,10 @@
+Type, Value, Quantity, Info, Farnell Order Code
+capacitor, 100nf, 2, ceramic,
+connector, 8-pin, 1, ic socket,
+chip, tl072, 1, dual jfet opamp,
+resistor, 330r, 1, 1% 0.5w metal film,
+resistor, 1k0, 1, 1% 0.5w metal film,
+resistor, 100k, 9, 1% 0.5w metal film,
+socket, white banana socket, 1,,
+socket, black banana socket, 4,,
+potentiometer, 50k linear, 3,,

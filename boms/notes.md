@@ -11,4 +11,7 @@ BOG requires BOMs for following modules :-
 * 1	CGS577 1973 VCF
 * 1	CGS514 DUSG
 
-These BOMs don't include the power connectors or the inter board connectors.
+## Schematics
+
+CGS348 VCO
+https://www.elby-designs.com/webtek/cgs/cgs348/cgs348-schematics.pdf
