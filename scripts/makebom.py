@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
-import sys
+import argparse
 from os import listdir
 from os.path import join, dirname, realpath, splitext
 import glob
 
+from pathlib import Path
 import csv
 
 project_root_dir = join(dirname(realpath(__file__)), "../")
@@ -17,7 +18,7 @@ def list_panels():
         print(name)
 
 
-def gen_panel_bom(panels):
+def gen_panel_bom(outputfile, panels):
     modules = []
     for p in panels:
         for m in read_panel_modules(p):
@@ -32,7 +33,7 @@ def gen_panel_bom(panels):
             print(m["module"] + " - " + m["name"])
 
     final_bom = combine_boms(module_boms)
-    write_bom_csv(final_bom)
+    write_bom_csv(outputfile, final_bom)
 
 
 def read_panel_modules(panel_name):
@@ -70,11 +71,11 @@ def combine_boms(module_boms):
                 }
     return list(final_bom.values())
 
-def write_bom_csv(final_bom):
+def write_bom_csv(outputfile, final_bom):
     final_bom.sort(key = lambda p: p["value"])
     final_bom.sort(reverse = True, key = lambda p: p["quantity"])
     final_bom.sort(key = lambda p: p["type"])
-    with open("combined.csv", "w") as csvfile:
+    with open(outputfile, "w") as csvfile:
         fieldnames = ["type", "value", "quantity", "info", "farnell order code"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
@@ -84,8 +85,11 @@ def write_bom_csv(final_bom):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2:
+    parser = argparse.ArgumentParser(description='create combined BOMs for Serge CGS panels')
+    parser.add_argument('-o', '--out', dest='outputfile', nargs='?', help='output file', default='bom.csv')
+    parser.add_argument('panels', nargs='*', help='panels to create BOM for')
+    args = parser.parse_args()
+    if len(args.panels) < 1:
         list_panels()
     else:
-        panels = sys.argv[1:]
-        gen_panel_bom(panels)
+        gen_panel_bom(Path(args.outputfile).with_suffix('.csv'), args.panels)
