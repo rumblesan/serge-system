@@ -1,6 +1,6 @@
 module, number, name
-cgs89, 1, Gate Sequencer
+cgs89-vv3, 1, Gate Sequencer
 cgs359b, 2, Programmer/Sequencer Main
 cgs359a, 8, Programmer/Sequencer Stage
-cgs503, 2, Step Next Row
+cgs403, 2, Step Next Row
 cgs88, 1, Triple Bi-directional Switch

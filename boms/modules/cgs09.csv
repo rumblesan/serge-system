@@ -1,6 +1,6 @@
 type, value, quantity, info, farnell order code
 capacitor, 47pf, 1, 5% ceramic,
-capacitor, 1.5nf, 1, 63v polyester,
+capacitor, 1n5f, 1, 63v polyester,
 capacitor, 10nf, 1, 63v polyester,
 capacitor, 100nf, 10, ceramic,
 capacitor, 10uf, 3, 35v electrolytic,
