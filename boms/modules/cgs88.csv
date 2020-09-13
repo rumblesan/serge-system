@@ -1,0 +1,20 @@
+Type, Value, Quantity, Info, Farnell Order Code
+capacitor, 10nf, 1, 5% ceramic medium k,
+capacitor, 100nf, 1, ceramic,
+connector, kk396 4-way locking header, 1, power connector, 1675500
+connector, kk396 4-way crimp housing, 1, power connector, 1756754
+connector, kk396 crimp, 4, power connector, 2424108
+chip, lm3900, 1, quad norton amplifier,
+chip, cd4007, 3, dual complimentary pair plus inverter,
+inductor, 0.45uh, 2, 7A ferrite bead,
+resistor, 1k0, 9, 1% 0.5w metal film,
+resistor, 2k2, 2, 1% 0.5w metal film,
+resistor, 8k2, 2, 1% 0.5w metal film,
+resistor, 10k, 1, 1% 0.5w metal film,
+resistor, 22k, 9, 1% 0.5w metal film,
+resistor, 1m5, 6, 1% 0.5w metal film,
+transistor, bc547b, 1, npn transistor,
+transistor, bc557b, 1, pnp transistor,
+socket, black banana socket, 9,,
+socket, red banana socket, 4,,
+switch, spdt on-on,1,,

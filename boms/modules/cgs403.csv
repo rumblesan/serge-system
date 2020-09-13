@@ -1,0 +1,30 @@
+Type, Value, Quantity, Info, Farnell Order Code
+capacitor, 100nf, 2, ceramic,
+capacitor, 220nf, 1, 5% ceramic,
+capacitor, 220nf, 1, 63v polyester,
+capacitor, 1uf, 1, 35v tantalum,
+connector, 16-pin, 1, ic socket,
+connector, 14-pin, 2, ic socket,
+connector, 8-pin, 1, ic socket,
+connector, kk396 4-way locking header, 1, power connector, 1675500
+connector, kk396 4-way crimp housing, 1, power connector, 1756754
+connector, kk396 crimp, 4, power connector, 2424108
+diode, 1n4148, 5,,
+chip, tl071, 1, jfet opamp,
+chip, lm339, 1, quad comparator,
+chip, lm393, 1, dual comparator,
+chip, cd4016, 1, quad analogue switch,
+inductor, 0.45uh, 2, 7A ferrite bead,
+resistor, 330r, 1, 1% 0.5w metal film,
+resistor, 2k2, 1, 1% 0.5w metal film,
+resistor, 10k, 2, 1% 0.5w metal film,
+resistor, 39k, 1, 1% 0.5w metal film,
+resistor, 100k, 2, 1% 0.5w metal film,
+resistor, 220k, 5, 1% 0.5w metal film,
+resistor, 1m0, 3, 1% 0.5w metal film,
+socket, blue banana socket, 4,,
+socket, green banana socket, 1,,
+socket, red banana socket, 2,,
+led, red led, 4,,
+led, led lense, 4,, 2748731
+switch, spst push button - momentary on, 1,,
