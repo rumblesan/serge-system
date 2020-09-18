@@ -1,4 +1,4 @@
-type, value, quantity, info, farnell order code
+type, value, quantity, info,
 capacitor, 470pf, 1, 10% ceramic,
 capacitor, 10nf, 1, 63v polyester,
 capacitor, 22nf, 1, 63v polyester,
@@ -17,6 +17,6 @@ transistor, bc557b, 3, pnp transistor,
 socket, yellow banana socket, 1,
 socket, red banana socket, 1,
 led, yellow led, 1,,
-led, led lense, 1,, 2748731
-potentiometer, 100k linear, 4,,
+led, led lense, 1,,
+potentiometer, 100k linear, 4,panel mount,
 switch, spst push button - momentary on, 1,,
