@@ -1,4 +1,4 @@
-type, value, quantity, info, farnell order code
+type, value, quantity, info,
 capacitor, 18pf, 1, 5% ceramic,
 capacitor, 68pf, 1, 5% ceramic,
 capacitor, 82pf, 2, 5% ceramic,
@@ -14,9 +14,9 @@ capacitor, 10uf, 2, 35v electrolytic,
 capacitor, 47uf, 1, electrolytic,
 connector, 8-pin, 6, ic socket,
 connector, 14-pin, 1, ic socket,
-connector, kk396 4-way locking header, 1, power connector, 1675500
-connector, kk396 4-way crimp housing, 1, power connector, 1756754
-connector, kk396 crimp, 4, power connector, 2424108
+connector, kk396 4-way locking header, 1, power connector,
+connector, kk396 4-way crimp housing, 1, power connector,
+connector, kk396 crimp, 4, power connector,
 diode, 1n4148, 13,,
 diode, lm329, 2, 6.9v precision zener,
 chip, lm3900, 1, quad norton amp,

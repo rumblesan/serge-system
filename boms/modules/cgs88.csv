@@ -1,9 +1,9 @@
-type, value, quantity, info, farnell order code
+type, value, quantity, info,
 capacitor, 10nf, 1, 5% ceramic medium k,
 capacitor, 100nf, 1, ceramic,
-connector, kk396 4-way locking header, 1, power connector, 1675500
-connector, kk396 4-way crimp housing, 1, power connector, 1756754
-connector, kk396 crimp, 4, power connector, 2424108
+connector, kk396 4-way locking header, 1, power connector,
+connector, kk396 4-way crimp housing, 1, power connector,
+connector, kk396 crimp, 4, power connector,
 chip, lm3900, 1, quad norton amp,
 chip, cd4007, 3, dual complimentary pair plus inverter,
 inductor, 0.45uh, 2, 7A ferrite bead,

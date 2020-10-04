@@ -1,4 +1,4 @@
-type, value, quantity, info, farnell order code
+type, value, quantity, info,
 capacitor, 22pf, 1, 10% ceramic,
 capacitor, 100pf, 2, 5% ceramic,
 capacitor, 220pf, 2, 2.5% polystyrene,
@@ -8,9 +8,9 @@ capacitor, 10uf, 2, 35v electrolytic,
 connector, 16-pin, 1, ic socket,
 connector, 8-pin, 1, ic socket,
 connector, 14-pin, 1, ic socket,
-connector, kk396 4-way locking header, 1, power connector, 1675500
-connector, kk396 4-way crimp housing, 1, power connector, 1756754
-connector, kk396 crimp, 4, power connector, 2424108
+connector, kk396 4-way locking header, 1, power connector,
+connector, kk396 4-way crimp housing, 1, power connector,
+connector, kk396 crimp, 4, power connector,
 chip, lm13700, 1, dual ota,
 chip, lm3900, 1, quad norton amp,
 chip, tl071, 1, jfet opamp,

@@ -1,4 +1,4 @@
-type, value, quantity, info, farnell order code
+type, value, quantity, info,
 capacitor, 47pf, 1, 5% ceramic,
 capacitor, 1n5f, 1, 63v polyester,
 capacitor, 10nf, 1, 63v polyester,
@@ -6,9 +6,9 @@ capacitor, 100nf, 10, ceramic,
 capacitor, 10uf, 3, 35v electrolytic,
 connector, 8-pin, 4, ic socket,
 connector, 14-pin, 2, ic socket,
-connector, kk396 4-way locking header, 1, power connector, 1675500
-connector, kk396 4-way crimp housing, 1, power connector, 1756754
-connector, kk396 crimp, 4, power connector, 2424108
+connector, kk396 4-way locking header, 1, power connector,
+connector, kk396 4-way crimp housing, 1, power connector,
+connector, kk396 crimp, 4, power connector,
 diode, 1n4148, 9,,
 chip, lm358, 2, dual opamp,
 chip, tl072, 2, dual jfet opamp,
@@ -35,7 +35,7 @@ socket, green banana socket, 2,,
 socket, black banana socket, 1,,
 socket, red banana socket, 1,,
 led, red led, 1,,
-led, led lense, 1,, 2748731
+led, led lense, 1,,
 potentiometer, 10k linear, 1,,
 potentiometer, 20k linear, 1,,
 potentiometer, 100k linear, 1,,
