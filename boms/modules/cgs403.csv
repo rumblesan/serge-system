@@ -1,5 +1,5 @@
 type, value, quantity, info,
-capacitor, 100nf, 2, ceramic,
+capacitor, 100nf, 2, 5% ceramic,
 capacitor, 220nf, 1, 5% ceramic,
 capacitor, 220nf, 1, 63v polyester,
 capacitor, 1uf, 1, 35v tantalum,

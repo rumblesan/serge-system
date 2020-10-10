@@ -1,5 +1,5 @@
 type, value, quantity, info,
-capacitor, 470pf, 1, 10% ceramic,
+capacitor, 470pf, 1, 5% ceramic,
 capacitor, 10nf, 1, 63v polyester,
 capacitor, 22nf, 1, 63v polyester,
 diode, 1n4148, 5,,

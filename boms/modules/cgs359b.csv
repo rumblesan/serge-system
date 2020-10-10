@@ -1,7 +1,7 @@
 type, value, quantity, info,
 capacitor, 47pf, 8, 5% ceramic,
 capacitor, 10nf, 4, 63v polyester,
-capacitor, 100nf, 10, ceramic,
+capacitor, 100nf, 10, 5% ceramic,
 capacitor, 10uf, 2, 35v electrolytic,
 connector, 8-pin, 5, ic socket,
 connector, kk396 4-way locking header, 1, power connector,
