@@ -1,5 +1,5 @@
 type, value, quantity, info,
-capacitor, 10nf, 1, 5% ceramic medium k,
+capacitor, 10nf, 1, 5% ceramic,
 capacitor, 100nf, 1, 5% ceramic,
 connector, kk396 4-way locking header, 1, power connector,
 connector, kk396 4-way crimp housing, 1, power connector,

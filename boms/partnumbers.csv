@@ -1,21 +1,22 @@
 type,value,info,order code
 capacitor,4u7f,50v electrolytic,647-USA1H100MDD
-capacitor,10uf,35v electrolytic,647-UMW1H4R7MDD
+capacitor,10uf,50v electrolytic,647-UMW1H4R7MDD
 capacitor,22uf,50V electrolytic,647-UMW1H220MDD1TP
 capacitor,47uf,electrolytic,647-UKT1H470MED1TD
-capacitor,1uf,35v tantalum,581-TAP105K035CCS
-capacitor,18pf,5% ceramic,810-FG28C0G2A180JNT0
-capacitor,22pf,5% ceramic,810-FG28C0G2A220JNT0
-capacitor,47pf,5% ceramic,810-FG28C0G2A470JNT0
-capacitor,68pf,5% ceramic,810-FG28C0G2A680JNT0
-capacitor,82pf,5% ceramic,810-FG28C0G2A820JNT0
-capacitor,100pf,5% ceramic,810-FA28C0G2A10100
-capacitor,220pf,5% ceramic,810-FG28C0G2A221JNT0
-capacitor,330pf,5% ceramic,810-FA28C0G2A33100
-capacitor,470pf,5% ceramic,810-FA28C0G2A47100
-capacitor,10nf,5% ceramic medium k,810-FG24C0G2A103JNT0
+capacitor,1uf,50v tantalum,581-TAP105K050BRW
+capacitor,18pf,5% ceramic,810-FG28C0G1H180JNT6
+capacitor,22pf,5% ceramic,810-FG28C0G1H220JNT0
+capacitor,47pf,5% ceramic,810-FG28C0G1H470JNT6
+capacitor,68pf,5% ceramic,810-FG28C0G1H680JNT0
+capacitor,82pf,5% ceramic,810-FG28C0G1H820JNT6
+capacitor,100pf,5% ceramic,810-FG28C0G1H101JNT0
+capacitor,220pf,5% ceramic,810-FG28C0G1H221JNT6
+capacitor,330pf,5% ceramic,810-FG28C0G1H331JNT0
+capacitor,470pf,5% ceramic,810-FG28C0G1H471JNT0
+capacitor,10nf,5% ceramic,810-FG28C0G1H103JNT0
+capacitor,100nf,5% ceramic,810-FG26C0G1H104JNT0
+capacitor,220nf,5% ceramic,810-FG22C0G1H224JNT6
 capacitor,100nf,10% ceramic X7R,594-K104K15X7RF53K2
-capacitor,220nf,5% ceramic,810-FG22C0G1H224JNT0
 capacitor,1nf,63v polyester,80-R82EC1100AA50J
 capacitor,1n5f,63v polyester,80-R82EC1150AA50J
 capacitor,4n7,63v polyester,80-R82EC1470AA50J
@@ -25,7 +26,7 @@ capacitor,22nf,63v polyester,80-R82EC2220AA50J
 capacitor,47nf,63v polyester,80-R82EC2470Z360J
 capacitor,100nf,63v polyester,80-R82EC3100AA70J
 capacitor,220nf,63v polyester,80-R82EC3220AA70J
-capacitor,220pf,2.5% polystyrene,farnell 9520031
+capacitor,220pf,2.5% polystyrene,farnell - 9520031
 resistor,10r,1% 0.5w metal film,603-MFR50SFTE52-10R
 resistor,62r,1% 0.5w metal film 15ppm,farnell - 1083122
 resistor,100r,1% 0.5w metal film,603-MFR50SFTE52-100R
@@ -105,15 +106,15 @@ diode,4.7v zener,5% 500mw,512-BZX79C4V7,
 diode,lm329,6.9v precision zener,,mouser only have TO-92-3 packaging so get from RS,
 diode,5.6v zener,5% 500mw,LM329BZ#PBF,
 transistor,bc547b,npn transistor,512-BC547BBU,
-transistor,bc557b,pnp transistor,,mouser only have TO-92-3 packaging so get from Farnell,
+transistor,bc557b,pnp transistor,,mouser only have TO-92-3 packaging,farnell - 2453804
 transistor,bc548b,npn transistor matched set,512-BC548BU,
 transistor,2n3904,npn transistor,512-2N3904BU,
 transistor,2n3906,pnp transistor,512-2N3906BU,
 transistor,bc547b,npn transistor matched set,get extra to match yourself,
-transistor,bc558b,pnp transistor,,not available as obsolete - try bitsbox,
-transistor,bc560c,pnp transistor,,not available as obsolete - try bitsbox,
-transistor,j108,jfet,106-J108,
-transistor,j201,jfet,106-J201,expensive - bitsbox may be better
+transistor,bc558b,pnp transistor,,bitsbox,
+transistor,bc560c,pnp transistor,,bitsbox,
+transistor,j112,jfet,512-J112,subbing for j108
+transistor,j201,jfet,106-J201,bitsbox
 transistor,ls312,dual matched npn transistors,not stocked,
 inductor,0.45uh,7A ferrite bead,623-2743001112LF,
 trimpot,100k,20tv cermet,81-PV36W104C01B00,
@@ -124,3 +125,36 @@ trimpot,5k,25tv cermet,81-PV36W502C01B00,
 trimpot,10k,1tv triangle footprint,652-3386P-1-103LF,
 trimpot,2k,1tv triangle footprint,652-3386P-1-202LF,
 trimpot,47k,1tv triangle footprint,652-3386P-1-473LF,
+connector,kk396 4-way crimp housing,power connector,538-09-50-3041,
+connector,kk396 4-way locking header,power connector,538-09-65-2048,
+connector,kk396 crimp,power connector,538-08-50-0133-CT,
+connector,8-pin,ic socket,649-DILB8P223TLF,
+connector,14-pin,ic socket,649-DILB14P-223TLF,
+connector,16-pin,ic socket,649-DILB16P-223TLF,
+connector,4-pin pcb interconnect header,needed if upper board,437-8907000410001101,
+connector,4-pin pcb interconnect socket,needed if lower board,437-8018700410001101,
+socket,black banana socket,,530-108-0903-1
+socket,yellow banana socket,,530-108-0907-1
+socket,red banana socket,,530-108-0902-1
+socket,white banana socket,,530-108-0901-1
+socket,blue banana socket,,530-108-0910-1
+socket,green banana socket,,530-1080904-1
+hardware,toggle switch cover - conical,red,633-AT444C,
+hardware,toggle switch cover - conical,blue,633-AT444G,
+hardware,led fresnel lens,yellow,CLB_300_YTP,
+hardware,led fresnel lens,green,CLB_300_GTP,
+hardware,push button dress nut,,611-702501201,
+hardware,push button cap,red,611-801803000,
+switch,spst push button - momentary on,,611-8125-241,
+switch,dpdt on-on,,633-M202201,
+switch,spdt on-off-on,,633-M201301,
+switch,spdt on-on,,633-M201202,
+potentiometer,10k linear,,tayda,
+potentiometer,20k linear,,tayda,
+potentiometer,50k linear,,tayda,
+potentiometer,50k log,,tayda,
+potentiometer,100k linear,,tayda,
+potentiometer,100k linear,pcb mount,tayda,
+potentiometer,100k log,,tayda,
+potentiometer,500k linear,,tayda,
+potentiometer,1m linear,,tayda,
