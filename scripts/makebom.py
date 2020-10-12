@@ -79,8 +79,8 @@ def combine_boms(module_boms, part_numbers):
                     "type": part["type"],
                     "value": part["value"],
                     "info": part["info"],
-                    "quantity": quantity,
-                    "order code": part_numbers.get(key, '')
+                    "order code": part_numbers.get(key, ''),
+                    "quantity": quantity
                 }
     return list(final_bom.values())
 
