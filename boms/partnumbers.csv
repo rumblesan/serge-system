@@ -26,7 +26,7 @@ capacitor,22nf,63v polyester,80-R82EC2220AA50J
 capacitor,47nf,63v polyester,80-R82EC2470Z360J
 capacitor,100nf,63v polyester,80-R82EC3100AA70J
 capacitor,220nf,63v polyester,80-R82EC3220AA70J
-capacitor,220pf,2.5% polystyrene,farnell - 9520031
+capacitor,220pf,5% polystyrene,23PS122
 resistor,10r,1% 0.5w metal film,603-MFR50SFTE52-10R
 resistor,62r,1% 0.5w metal film 15ppm,farnell - 1083122
 resistor,100r,1% 0.5w metal film,603-MFR50SFTE52-100R
@@ -80,7 +80,7 @@ resistor,4m7,1% 0.5w metal film,603-MFR50SFTE52-4M7
 resistor,8m2,5% 0.5w metal film,594-VR37000008204JA1
 resistor,10m,5% 0.5w metal film,594-SFR25H0001005JR5
 resistor,22m,5% 0.25w metal glazed,603-HHV-25JT-52-22M
-resistor,pt146 1k 3500ppm,tempco resistor,,not stocket by mouser - use thonk,
+resistor,pt146 1k 3500ppm,tempco resistor,thonk,
 chip,tl072,dual jfet opamp,595-TL072IP,
 chip,lm3900,quad norton amp,595-LM3900N,
 chip,tl074,quad jfet opamp,595-TL074CNE4,
@@ -95,7 +95,7 @@ chip,lf353,dual jfet opamp,595-LF353P,
 chip,lm311,comparator,595-LM311P,
 chip,rc4558,dual opamp,595-RC4558P,
 chip,that340P14,matched bipolar transistor array,887-340P14-U,
-chip,ca3080,transconductance opamp,,not stocked by mouser - use thonk,
+chip,ca3080,transconductance opamp,use thonk,
 chip,cd40106,hex schmitt trigger,595-CD40106BE,
 chip,cd4017,decade counter/divider,595-CD4017BE,
 chip,cd4024,7-stage binary counter,595-CD4024BEE4,
@@ -103,19 +103,19 @@ chip,cd4081,quad 2-input and,595-CD4081BE,
 chip,lm13700,dual ota,926-LM13700N/NOPB,
 diode,1n4148,,512-1N4148,
 diode,4.7v zener,5% 500mw,512-BZX79C4V7,
-diode,lm329,6.9v precision zener,,mouser only have TO-92-3 packaging so get from RS,
+diode,lm329,6.9v precision zener,mouser only have TO-92-3 packaging so get from RS,
 diode,5.6v zener,5% 500mw,LM329BZ#PBF,
 transistor,bc547b,npn transistor,512-BC547BBU,
-transistor,bc557b,pnp transistor,,mouser only have TO-92-3 packaging,farnell - 2453804
+transistor,bc557b,pnp transistor,farnell - 2453804
 transistor,bc548b,npn transistor matched set,512-BC548BU,
 transistor,2n3904,npn transistor,512-2N3904BU,
 transistor,2n3906,pnp transistor,512-2N3906BU,
 transistor,bc547b,npn transistor matched set,get extra to match yourself,
-transistor,bc558b,pnp transistor,,bitsbox,
-transistor,bc560c,pnp transistor,,bitsbox,
+transistor,bc558b,pnp transistor,bitsbox,
+transistor,bc560c,pnp transistor,bitsbox,
 transistor,j112,jfet,512-J112,subbing for j108
 transistor,j201,jfet,106-J201,bitsbox
-transistor,ls312,dual matched npn transistors,not stocked,
+transistor,ls312,dual matched npn transistors,?????,
 inductor,0.45uh,7A ferrite bead,623-2743001112LF,
 trimpot,100k,20tv cermet,81-PV36W104C01B00,
 trimpot,20k,25tv cermet,81-PV36W203C01B00,
