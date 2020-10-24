@@ -12,6 +12,7 @@ project_root_dir = join(dirname(realpath(__file__)), "..")
 panel_list_dir = join(project_root_dir, "boms", "panels")
 module_bom_dir = join(project_root_dir, "boms", "modules")
 part_numbers_lookup = join(project_root_dir, "boms", "partnumbers.csv")
+default_output_path = join(project_root_dir, "bom.csv")
 
 def list_panels():
     for panel in listdir(panel_list_dir):
@@ -99,7 +100,7 @@ def write_bom_csv(outputfile, final_bom):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='create combined BOMs for Serge CGS panels')
-    parser.add_argument('-o', '--out', dest='outputfile', nargs='?', help='output file', default='../bom.csv')
+    parser.add_argument('-o', '--out', dest='outputfile', nargs='?', help='output file', default=default_output_path)
     parser.add_argument('panels', nargs='*', help='panels to create BOM for')
     args = parser.parse_args()
     if len(args.panels) < 1:
