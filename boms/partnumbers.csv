@@ -29,7 +29,7 @@ capacitor,220nf,63v polyester,80-R82EC3220AA70J
 capacitor,220pf,5% polystyrene,23PS122
 capacitor,2n2f,5% polystyrene,23PS222
 resistor,10r,1% 0.5w metal film,603-MFR50SFTE52-10R
-resistor,62r,1% 0.5w metal film 15ppm,farnell - 1083122
+resistor,62r,1% 0.25w metal film 15ppm,279-YR1B61R9CC
 resistor,100r,1% 0.5w metal film,603-MFR50SFTE52-100R
 resistor,220r,1% 0.5w metal film,603-MFR50SFTE52-220R
 resistor,330r,1% 0.5w metal film,603-MFR50SFTE52-330R
