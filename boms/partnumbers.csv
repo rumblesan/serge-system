@@ -134,6 +134,7 @@ connector,14-pin,ic socket,649-DILB14P-223TLF,
 connector,16-pin,ic socket,649-DILB16P-223TLF,
 connector,4-pin pcb interconnect header,needed if upper board,437-8907000410001101,
 connector,4-pin pcb interconnect socket,needed if lower board,437-8018700410001101,
+connector,20-pin,5,SIP socket,575-3104712041001000
 socket,black banana socket,,530-108-0903-1
 socket,yellow banana socket,,530-108-0907-1
 socket,red banana socket,,530-108-0902-1
