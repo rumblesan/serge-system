@@ -1,86 +1,86 @@
-type,value,info,order code
-capacitor,4u7f,50v electrolytic,647-USA1H100MDD
-capacitor,10uf,50v electrolytic,647-UMW1H4R7MDD
-capacitor,22uf,50V electrolytic,647-UMW1H220MDD1TP
-capacitor,47uf,electrolytic,647-UKT1H470MED1TD
-capacitor,1uf,50v tantalum,581-TAP105K050BRW
-capacitor,18pf,5% ceramic,810-FG28C0G1H180JNT6
-capacitor,22pf,5% ceramic,810-FG28C0G1H220JNT0
-capacitor,47pf,5% ceramic,810-FG28C0G1H470JNT6
-capacitor,68pf,5% ceramic,810-FG28C0G1H680JNT0
-capacitor,82pf,5% ceramic,810-FG28C0G1H820JNT6
-capacitor,100pf,5% ceramic,810-FG28C0G1H101JNT0
-capacitor,220pf,5% ceramic,810-FG28C0G1H221JNT6
-capacitor,330pf,5% ceramic,810-FG28C0G1H331JNT0
-capacitor,470pf,5% ceramic,810-FG28C0G1H471JNT0
-capacitor,10nf,5% ceramic,810-FG28C0G1H103JNT0
-capacitor,100nf,5% ceramic,810-FG26C0G1H104JNT0
-capacitor,220nf,5% ceramic,810-FG22C0G1H224JNT6
-capacitor,100nf,10% ceramic X7R,594-K104K15X7RF53K2
-capacitor,1nf,63v polyester,80-R82EC1100AA50J
-capacitor,1n5f,63v polyester,80-R82EC1150AA50J
-capacitor,4n7,63v polyester,80-R82EC1470AA50J
-capacitor,5n6,63v polyester,80-R82EC1560AA50J
-capacitor,10nf,63v polyester,80-R82EC2100AA50J
-capacitor,22nf,63v polyester,80-R82EC2220AA50J
-capacitor,47nf,63v polyester,80-R82EC2470Z360J
-capacitor,100nf,63v polyester,80-R82EC3100AA70J
-capacitor,220nf,63v polyester,80-R82EC3220AA70J
-capacitor,220pf,5% polystyrene,23PS122
-capacitor,2n2f,5% polystyrene,23PS222
-resistor,10r,1% 0.5w metal film,603-MFR50SFTE52-10R
-resistor,62r,1% 0.25w metal film 15ppm,279-YR1B61R9CC
-resistor,100r,1% 0.5w metal film,603-MFR50SFTE52-100R
-resistor,220r,1% 0.5w metal film,603-MFR50SFTE52-220R
-resistor,330r,1% 0.5w metal film,603-MFR50SFTE52-330R
-resistor,470r,1% 0.5w metal film,603-MFR-50SFRF52470R
-resistor,680r,1% 0.5w metal film,603-MFR50SFTE52-680R
-resistor,820r,1% 0.5w metal film,603-MFR50SFTE52-820R
-resistor,1k0,1% 0.5w metal film,603-MFR50SFTE52-1K
-resistor,1k2,1% 0.5w metal film,603-MFR50SFTE52-1K2
-resistor,1k3,1% 0.5w metal film,603-MFR50SFTE52-1K3
-resistor,1k5,1% 0.5w metal film,603-MFR50SFTE52-1K5
-resistor,1k8,1% 0.5w metal film,603-MFR50SFTE52-1K8
-resistor,2k0,1% 0.5w metal film,603-MFR50SFTE52-2K
-resistor,2k1,1% 0.5w metal film,71-CMF552K1000FKEK
-resistor,2k2,1% 0.5w metal film,603-MFR50SFTE52-2K2
-resistor,3k3,1% 0.5w metal film,603-MFR50SFTE52-3K3
-resistor,3k9,1% 0.5w metal film,603-MFR50SFTE52-3K9
-resistor,4k7,1% 0.5w metal film,603-MFR50SFTE52-4K7
-resistor,6k8,1% 0.5w metal film,603-MFR50SFTE52-6K8
-resistor,8k2,1% 0.5w metal film,603-MFR50SFTE52-8K2
-resistor,10k,1% 0.5w metal film,603-MFR50SFTE52-10K
-resistor,15k,1% 0.5w metal film,603-MFR50SFTE52-15K
-resistor,18k,1% 0.5w metal film,603-MFR50SFTE52-18K
-resistor,22k,1% 0.5w metal film,603-MFR50SFTE52-22K
-resistor,33k,1% 0.5w metal film,603-MFR50SFTE52-33K
-resistor,39k,1% 0.5w metal film,603-MFR50SFTE52-39K
-resistor,47k,1% 0.5w metal film,603-MFR50SFTE52-47K
-resistor,56k,1% 0.5w metal film,603-MFR50SFTE52-56K
-resistor,68k,1% 0.5w metal film,603-MFR50SFTE52-68K
-resistor,82k,1% 0.5w metal film,603-MFR50SFTE52-82K
-resistor,91k,1% 0.5w metal film,603-MFR50SFTE52-91K
-resistor,100k,1% 0.5w metal film,603-MFR50SFTE52-100K
-resistor,130k,1% 0.5w metal film,603-MFR50SFTE52-130K
-resistor,150k,1% 0.5w metal film,603-MFR50SFTE52-150K
-resistor,180k,1% 0.5w metal film,603-MFR50SFTE52-180K
-resistor,200k,1% 0.5w metal film,603-MFR50SFTE52-200K
-resistor,220k,1% 0.5w metal film,603-MFR50SFTE52-220K
-resistor,270k,1% 0.5w metal film,603-MFR50SFTE52-270K
-resistor,300k,1% 0.5w metal film,603-MFR50SFTE52-300K
-resistor,330k,1% 0.5w metal film,603-MFR50SFTE52-330K
-resistor,360k,1% 0.5w metal film,603-MFR50SFTE52-360K
-resistor,470k,1% 0.5w metal film,603-MFR50SFTE52-470K
-resistor,510k,1% 0.5w metal film,603-MFR50SFTE52-510K
-resistor,680k,1% 0.5w metal film,603-MFR50SFTE52-680K
-resistor,820k,1% 0.5w metal film,603-MFR50SFTE52-820K
-resistor,1m0,1% 0.5w metal film,603-MFR50SFTE52-1M
-resistor,1m5,1% 0.5w metal film,603-MFR50SFTE52-1M5
-resistor,3m3,1% 0.5w metal film,603-MFR50SFTE52-3M3
-resistor,4m7,1% 0.5w metal film,603-MFR50SFTE52-4M7
-resistor,8m2,5% 0.5w metal film,594-VR37000008204JA1
-resistor,10m,5% 0.5w metal film,594-SFR25H0001005JR5
-resistor,22m,5% 0.25w metal glazed,603-HHV-25JT-52-22M
+type,value,info,order code,
+capacitor,4u7f,50v electrolytic,647-USA1H100MDD ,
+capacitor,10uf,50v electrolytic,647-UMW1H4R7MDD ,
+capacitor,22uf,50V electrolytic,647-UMW1H220MDD1TP ,
+capacitor,47uf,electrolytic,647-UKT1H470MED1TD ,
+capacitor,1uf,50v tantalum,581-TAP105K050BRW ,
+capacitor,18pf,5% ceramic,810-FG28C0G1H180JNT6 ,
+capacitor,22pf,5% ceramic,810-FG28C0G1H220JNT0 ,
+capacitor,47pf,5% ceramic,810-FG28C0G1H470JNT6 ,
+capacitor,68pf,5% ceramic,810-FG28C0G1H680JNT0 ,
+capacitor,82pf,5% ceramic,810-FG28C0G1H820JNT6 ,
+capacitor,100pf,5% ceramic,810-FG28C0G1H101JNT0 ,
+capacitor,220pf,5% ceramic,810-FG28C0G1H221JNT6 ,
+capacitor,330pf,5% ceramic,810-FG28C0G1H331JNT0 ,
+capacitor,470pf,5% ceramic,810-FG28C0G1H471JNT0 ,
+capacitor,10nf,5% ceramic,810-FG28C0G1H103JNT0 ,
+capacitor,100nf,5% ceramic,810-FG26C0G1H104JNT0 ,
+capacitor,220nf,5% ceramic,810-FG22C0G1H224JNT6 ,
+capacitor,100nf,10% ceramic X7R,594-K104K15X7RF53K2 ,
+capacitor,1nf,63v polyester,80-R82EC1100AA50J ,
+capacitor,1n5f,63v polyester,80-R82EC1150AA50J ,
+capacitor,4n7,63v polyester,80-R82EC1470AA50J ,
+capacitor,5n6,63v polyester,80-R82EC1560AA50J ,
+capacitor,10nf,63v polyester,80-R82EC2100AA50J ,
+capacitor,22nf,63v polyester,80-R82EC2220AA50J ,
+capacitor,47nf,63v polyester,80-R82EC2470Z360J ,
+capacitor,100nf,63v polyester,80-R82EC3100AA70J ,
+capacitor,220nf,63v polyester,80-R82EC3220AA70J ,
+capacitor,220pf,5% polystyrene,23PS122 ,
+capacitor,2n2f,5% polystyrene,23PS222 ,
+resistor,10r,1% 0.5w metal film,603-MFR50SFTE52-10R ,
+resistor,62r,1% 0.25w metal film 15ppm,279-YR1B61R9CC ,
+resistor,100r,1% 0.5w metal film,603-MFR50SFTE52-100R ,
+resistor,220r,1% 0.5w metal film,603-MFR50SFTE52-220R ,
+resistor,330r,1% 0.5w metal film,603-MFR50SFTE52-330R ,
+resistor,470r,1% 0.5w metal film,603-MFR-50SFRF52470R ,
+resistor,680r,1% 0.5w metal film,603-MFR50SFTE52-680R ,
+resistor,820r,1% 0.5w metal film,603-MFR50SFTE52-820R ,
+resistor,1k0,1% 0.5w metal film,603-MFR50SFTE52-1K ,
+resistor,1k2,1% 0.5w metal film,603-MFR50SFTE52-1K2 ,
+resistor,1k3,1% 0.5w metal film,603-MFR50SFTE52-1K3 ,
+resistor,1k5,1% 0.5w metal film,603-MFR50SFTE52-1K5 ,
+resistor,1k8,1% 0.5w metal film,603-MFR50SFTE52-1K8 ,
+resistor,2k0,1% 0.5w metal film,603-MFR50SFTE52-2K ,
+resistor,2k1,1% 0.5w metal film,71-CMF552K1000FKEK ,
+resistor,2k2,1% 0.5w metal film,603-MFR50SFTE52-2K2 ,
+resistor,3k3,1% 0.5w metal film,603-MFR50SFTE52-3K3 ,
+resistor,3k9,1% 0.5w metal film,603-MFR50SFTE52-3K9 ,
+resistor,4k7,1% 0.5w metal film,603-MFR50SFTE52-4K7 ,
+resistor,6k8,1% 0.5w metal film,603-MFR50SFTE52-6K8 ,
+resistor,8k2,1% 0.5w metal film,603-MFR50SFTE52-8K2 ,
+resistor,10k,1% 0.5w metal film,603-MFR50SFTE52-10K ,
+resistor,15k,1% 0.5w metal film,603-MFR50SFTE52-15K ,
+resistor,18k,1% 0.5w metal film,603-MFR50SFTE52-18K ,
+resistor,22k,1% 0.5w metal film,603-MFR50SFTE52-22K ,
+resistor,33k,1% 0.5w metal film,603-MFR50SFTE52-33K ,
+resistor,39k,1% 0.5w metal film,603-MFR50SFTE52-39K ,
+resistor,47k,1% 0.5w metal film,603-MFR50SFTE52-47K ,
+resistor,56k,1% 0.5w metal film,603-MFR50SFTE52-56K ,
+resistor,68k,1% 0.5w metal film,603-MFR50SFTE52-68K ,
+resistor,82k,1% 0.5w metal film,603-MFR50SFTE52-82K ,
+resistor,91k,1% 0.5w metal film,603-MFR50SFTE52-91K ,
+resistor,100k,1% 0.5w metal film,603-MFR50SFTE52-100K ,
+resistor,130k,1% 0.5w metal film,603-MFR50SFTE52-130K ,
+resistor,150k,1% 0.5w metal film,603-MFR50SFTE52-150K ,
+resistor,180k,1% 0.5w metal film,603-MFR50SFTE52-180K ,
+resistor,200k,1% 0.5w metal film,603-MFR50SFTE52-200K ,
+resistor,220k,1% 0.5w metal film,603-MFR50SFTE52-220K ,
+resistor,270k,1% 0.5w metal film,603-MFR50SFTE52-270K ,
+resistor,300k,1% 0.5w metal film,603-MFR50SFTE52-300K ,
+resistor,330k,1% 0.5w metal film,603-MFR50SFTE52-330K ,
+resistor,360k,1% 0.5w metal film,603-MFR50SFTE52-360K ,
+resistor,470k,1% 0.5w metal film,603-MFR50SFTE52-470K ,
+resistor,510k,1% 0.5w metal film,603-MFR50SFTE52-510K ,
+resistor,680k,1% 0.5w metal film,603-MFR50SFTE52-680K ,
+resistor,820k,1% 0.5w metal film,603-MFR50SFTE52-820K ,
+resistor,1m0,1% 0.5w metal film,603-MFR50SFTE52-1M ,
+resistor,1m5,1% 0.5w metal film,603-MFR50SFTE52-1M5 ,
+resistor,3m3,1% 0.5w metal film,603-MFR50SFTE52-3M3 ,
+resistor,4m7,1% 0.5w metal film,603-MFR50SFTE52-4M7 ,
+resistor,8m2,5% 0.5w metal film,594-VR37000008204JA1 ,
+resistor,10m,5% 0.5w metal film,594-SFR25H0001005JR5 ,
+resistor,22m,5% 0.25w metal glazed,603-HHV-25JT-52-22M ,
 resistor,pt146 1k 3500ppm,tempco resistor,thonk,
 chip,tl072,dual jfet opamp,595-TL072IP,
 chip,lm3900,quad norton amp,595-LM3900N,
@@ -96,51 +96,51 @@ chip,lf353,dual jfet opamp,595-LF353P,
 chip,lm311,comparator,595-LM311P,
 chip,rc4558,dual opamp,595-RC4558P,
 chip,that340P14,matched bipolar transistor array,887-340P14-U,
-chip,ca3080,transconductance opamp,use thonk,
+chip,ca3080,transconductance opamp,thonk,
 chip,cd40106,hex schmitt trigger,595-CD40106BE,
 chip,cd4017,decade counter/divider,595-CD4017BE,
 chip,cd4024,7-stage binary counter,595-CD4024BEE4,
 chip,cd4081,quad 2-input and,595-CD4081BE,
 chip,lm13700,dual ota,926-LM13700N/NOPB,
 diode,1n4148,,512-1N4148,
-diode,4.7v zener,5% 500mw,512-BZX79C4V7,
-diode,lm329,6.9v precision zener,mouser only have TO-92-3 packaging so get from RS,
-diode,5.6v zener,5% 500mw,LM329BZ#PBF,
+diode,4.7v zener,5% 500mw,771-BZX79-C4V7133,
+diode,lm329,6.9v precision zener,LM329BZ#PBF,
+diode,5.6v zener,5% 500mw,771-BZX79-C5V6113,
 transistor,bc547b,npn transistor,512-BC547BBU,
-transistor,bc557b,pnp transistor,farnell - 2453804
+transistor,bc557b,pnp transistor,farnell - 2453804 ,
 transistor,bc548b,npn transistor matched set,512-BC548BU,
 transistor,2n3904,npn transistor,512-2N3904BU,
 transistor,2n3906,pnp transistor,512-2N3906BU,
 transistor,bc547b,npn transistor matched set,get extra to match yourself,
 transistor,bc558b,pnp transistor,bitsbox,
 transistor,bc560c,pnp transistor,bitsbox,
-transistor,j112,jfet,512-J112,subbing for j108
-transistor,j201,jfet,106-J201,bitsbox
-transistor,ls312,dual matched npn transistors,?????,
+transistor,j112,jfet,512-J112,
+transistor,j201,jfet,106-J201,
+transistor,ls312,dual matched npn transistors,micross,
 inductor,0.45uh,7A ferrite bead,623-2743001112LF,
-trimpot,100k,20tv cermet,81-PV36W104C01B00,
-trimpot,20k,25tv cermet,81-PV36W203C01B00,
-trimpot,10k,25tv cermet,81-PV36W103C01B00,
-trimpot,200k,25tv cermet,81-PV36W204C01B00,
-trimpot,5k,25tv cermet,81-PV36W502C01B00,
-trimpot,10k,1tv triangle footprint,652-3386P-1-103LF,
-trimpot,2k,1tv triangle footprint,652-3386P-1-202LF,
-trimpot,47k,1tv triangle footprint,652-3386P-1-473LF,
+trimpot,100k,20tv cermet,72-T93YA-100K,
+trimpot,20k,25tv cermet,72-T93YA-20K,
+trimpot,10k,25tv cermet,72-T93YA-10K,
+trimpot,200k,25tv cermet,72-T93YA-200K,
+trimpot,5k,25tv cermet,72-T93YA-5K,
+trimpot,10k,1tv triangle footprint,652-3306W-1-103,
+trimpot,2k,1tv triangle footprint,652-3306W-1-202,
+trimpot,47k,1tv triangle footprint,652-3306P-1-473,
 connector,kk396 4-way crimp housing,power connector,538-09-50-3041,
 connector,kk396 4-way locking header,power connector,538-09-65-2048,
-connector,kk396 crimp,power connector,538-08-50-0133-CT,
+connector,kk396 crimp,power connector,538-08-50-0134,
 connector,8-pin,ic socket,649-DILB8P223TLF,
 connector,14-pin,ic socket,649-DILB14P-223TLF,
 connector,16-pin,ic socket,649-DILB16P-223TLF,
 connector,4-pin pcb interconnect header,needed if upper board,437-8907000410001101,
 connector,4-pin pcb interconnect socket,needed if lower board,437-8018700410001101,
-connector,20-pin,5,SIP socket,575-3104712041001000
-socket,black banana socket,,530-108-0903-1
-socket,yellow banana socket,,530-108-0907-1
-socket,red banana socket,,530-108-0902-1
-socket,white banana socket,,530-108-0901-1
-socket,blue banana socket,,530-108-0910-1
-socket,green banana socket,,530-1080904-1
+connector,20-pin,5,SIP socket,
+socket,black banana socket,,530-108-0903-1 ,
+socket,yellow banana socket,,530-108-0907-1 ,
+socket,red banana socket,,530-108-0902-1 ,
+socket,white banana socket,,530-108-0901-1 ,
+socket,blue banana socket,,530-108-0910-1 ,
+socket,green banana socket,,530-1080904-1 ,
 hardware,toggle switch cover - conical,red,633-AT444C,
 hardware,toggle switch cover - conical,blue,633-AT444G,
 hardware,led fresnel lens,yellow,CLB_300_YTP,
