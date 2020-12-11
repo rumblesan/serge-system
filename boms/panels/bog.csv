@@ -1,9 +1,10 @@
 module, number, name
 cgs04, 1, DC Mixer
 cgs09, 1, VC Divider
-cgs29, 1, Wave Multiplier
+cgs29-bog, 1, Wave Multiplier
 cgs348, 2, VCO
 cgs58, 1, Utility LFO
 cgs364, 2, VCA
-cgs514, 2, USG
+cgs514-lower, 1, USG
+cgs514-upper, 1, USG
 cgs577, 1, 73 VCF
