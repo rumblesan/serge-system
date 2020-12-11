@@ -1,5 +1,4 @@
 type, value, quantity, info,
-capacitor, 47pf, 1, 5% ceramic,
 capacitor, 1n5f, 1, 63v polyester,
 capacitor, 10nf, 1, 63v polyester,
 capacitor, 100nf, 10, 5% ceramic,
