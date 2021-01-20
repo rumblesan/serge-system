@@ -1,0 +1,10 @@
+type, value, quantity,info
+socket, blue banana socket, 5,
+socket, black banana socket, 2,
+socket, red banana socket, 3,
+led, yellow low current led, 1,
+led, yellow led lense, 1,
+led, green low current led, 1,
+led, green led lense, 1,
+potentiometer, 50k linear, 5,
+switch, spdt on-on ,1,

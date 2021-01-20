@@ -7,4 +7,5 @@ cgs58, 1, Utility LFO
 cgs364, 2, VCA
 cgs514-lower, 1, USG
 cgs514-upper, 1, USG
+cgs514-dusg-hardware, 1, USG
 cgs577, 1, 73 VCF
