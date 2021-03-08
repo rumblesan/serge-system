@@ -2,7 +2,7 @@
 
 import argparse
 from os import listdir
-from os.path import join, dirname, realpath, splitext
+from os.path import join, dirname, realpath, splitext, isfile
 import glob
 
 from pathlib import Path
@@ -26,7 +26,7 @@ def gen_panel_bom(outputfile, panels):
         for m in read_panel_modules(p):
             modules.append(m)
     module_boms = []
-    print("comining boms for:")
+    print("combining boms for:")
     for m in modules:
         bom = read_module_bom(m)
         # account for modules being used multiple times
@@ -42,6 +42,9 @@ def gen_panel_bom(outputfile, panels):
 def read_panel_modules(panel_name):
     panel_list_path = join(panel_list_dir, panel_name + ".csv")
     module_panels = []
+    if not isfile(panel_list_path):
+        print("Could not find panel list for %s" % panel_name)
+        return []
     with open(panel_list_path) as csvfile:
         panel_list_reader = csv.DictReader(csvfile, skipinitialspace=True)
         module_panels = [row for row in panel_list_reader]
@@ -51,6 +54,9 @@ def read_panel_modules(panel_name):
 def read_module_bom(module_info):
     bom_path = join(module_bom_dir, module_info["module"] + ".csv")
     parts = []
+    if not isfile(bom_path):
+        print("Could not find module bom for %s" % module_info["module"])
+        return parts
     with open(bom_path) as csvfile:
         bom_reader = csv.DictReader(csvfile, skipinitialspace=True)
         parts = [p for p in bom_reader]
