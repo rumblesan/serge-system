@@ -1,12 +1,15 @@
 module, number, name
 cgs514-lower, 2, USG
 cgs514-upper, 2, USG
-cgs514-usg-hardware, 2, USG
+cgs514-usg-hardware, 4, USG
 cgs381, 1, Dual Processor
 cgs336, 1, Pulse Divider
 cgs405, 1, Boolean Logic
 cgs501, 1, NCom
 cgs92, 2, Smooth Stepped Generator
 cgs92-smoothstepped-hardware, 1, Smooth Stepped Generator
-cgs597, 1, Random Source
+cgs597, 1, Noise Source
 cgs92-randomsource-hardware, 1, Random Source
+boat, 1, Boat Power Distribution
+pcb-mount, 6, Mounting single layer PCBs
+2layer-pcb-mount, 3, Mounting single layer PCBs

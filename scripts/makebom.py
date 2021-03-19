@@ -4,6 +4,7 @@ import argparse
 from os import listdir
 from os.path import join, dirname, realpath, splitext, isfile
 import glob
+import re
 
 from pathlib import Path
 import csv
@@ -36,6 +37,8 @@ def gen_panel_bom(outputfile, panels):
 
     part_numbers = read_part_numbers()
     final_bom = combine_boms(module_boms, part_numbers)
+    sort_bom(final_bom)
+
     write_bom_csv(outputfile, final_bom)
 
 
@@ -91,10 +94,41 @@ def combine_boms(module_boms, part_numbers):
                 }
     return list(final_bom.values())
 
-def write_bom_csv(outputfile, final_bom):
-    final_bom.sort(key = lambda p: p["value"])
+
+cap_re = re.compile(r"(\d+)([pnu])(\d*)f$")
+res_re = re.compile(r"(\d+)([kmr])(\d*)$")
+
+def value_to_sortable(comp_type, value):
+    m = None
+    if comp_type == 'capacitor':
+        m = cap_re.match(value)
+        if not m:
+            return 0
+    elif comp_type == 'resistor' or comp_type == 'potentiometer' or comp_type == 'trimpot':
+        m = res_re.match(value)
+        if not m:
+            return 0
+    else:
+        return 0
+    num = float("%s.%s" % (m.group(1), m.group(3)))
+    return num * get_mult(m.group(2))
+
+def get_mult(mult):
+    if mult == "p":
+        return 1
+    elif mult == "n" or mult == "k":
+        return 1000
+    elif mult == "u" or mult == "m":
+        return 1000000
+    else:
+        return 0
+
+def sort_bom(final_bom):
     final_bom.sort(reverse = True, key = lambda p: p["quantity"])
+    final_bom.sort(key = lambda p: value_to_sortable(p["type"], p["value"]))
     final_bom.sort(key = lambda p: p["type"])
+
+def write_bom_csv(outputfile, final_bom):
     with open(outputfile, "w") as csvfile:
         fieldnames = ["type", "value", "quantity", "info", "order code"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
