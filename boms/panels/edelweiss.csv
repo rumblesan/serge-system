@@ -6,7 +6,7 @@ cgs381, 1, Dual Processor
 cgs336, 1, Pulse Divider
 cgs405, 1, Boolean Logic
 cgs501, 1, NCom
-cgs92, 2, Smooth Stepped Generator
+cgs92-v3080, 2, Smooth Stepped Generator
 cgs92-smoothstepped-hardware, 1, Smooth Stepped Generator
 cgs597, 1, Noise Source
 cgs92-randomsource-hardware, 1, Random Source
