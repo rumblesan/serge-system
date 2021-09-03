@@ -15,11 +15,31 @@ module_bom_dir = join(project_root_dir, "boms", "modules")
 part_numbers_lookup = join(project_root_dir, "boms", "partnumbers.csv")
 default_output_path = join(project_root_dir, "bom.csv")
 
+def list_modules():
+    for module in listdir(module_bom_dir):
+        name, _ = splitext(module)
+        print(name)
+
 def list_panels():
     for panel in listdir(panel_list_dir):
         name, _ = splitext(panel)
         print(name)
 
+
+def combine_modules(outputfile, modules):
+    module_boms = []
+    print("combining boms for:")
+    for m in modules:
+        module_info = {"module": m, "name": m}
+        bom = read_module_bom(module_info)
+        module_boms.append(bom)
+        print(m)
+
+    part_numbers = read_part_numbers()
+    final_bom = combine_boms(module_boms, part_numbers)
+    sort_bom(final_bom)
+
+    write_bom_csv(outputfile, final_bom)
 
 def gen_panel_bom(outputfile, panels):
     modules = []
@@ -139,11 +159,24 @@ def write_bom_csv(outputfile, final_bom):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='create combined BOMs for Serge CGS panels')
+    parser = argparse.ArgumentParser(description='create combined BOMs for Serge modules')
     parser.add_argument('-o', '--out', dest='outputfile', nargs='?', help='output file', default=default_output_path)
-    parser.add_argument('panels', nargs='*', help='panels to create BOM for')
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument('-m', '--modules', action='store_true', help='expect list of module names to create BOM for')
+    group.add_argument('-p', '--panels', action='store_true', help='expect list of panel names to create BOM for')
+    parser.add_argument('names', nargs='*', help='names of panels or modules')
     args = parser.parse_args()
-    if len(args.panels) < 1:
-        list_panels()
+    if args.panels:
+        if len(args.names) < 1:
+            print("Must specify one or more panels:")
+            list_panels()
+        else:
+            gen_panel_bom(Path(args.outputfile).with_suffix('.csv'), args.names)
+    elif args.modules:
+        if len(args.names) < 1:
+            print("Must specify one or more modules:")
+            list_modules()
+        else:
+            combine_modules(Path(args.outputfile).with_suffix('.csv'), args.names)
     else:
-        gen_panel_bom(Path(args.outputfile).with_suffix('.csv'), args.panels)
+        parser.print_help()
