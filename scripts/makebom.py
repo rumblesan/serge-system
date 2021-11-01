@@ -16,12 +16,12 @@ part_numbers_lookup = join(project_root_dir, "boms", "partnumbers.csv")
 default_output_path = join(project_root_dir, "bom.csv")
 
 def list_modules():
-    for module in listdir(module_bom_dir):
+    for module in sorted(listdir(module_bom_dir)):
         name, _ = splitext(module)
         print(name)
 
 def list_panels():
-    for panel in listdir(panel_list_dir):
+    for panel in sorted(listdir(panel_list_dir)):
         name, _ = splitext(panel)
         print(name)
 
@@ -75,7 +75,7 @@ def read_panel_modules(panel_name):
 
 
 def read_module_bom(module_info):
-    bom_path = join(module_bom_dir, module_info["module"] + ".csv")
+    bom_path = join(module_bom_dir, module_info["module"].strip() + ".csv")
     parts = []
     if not isfile(bom_path):
         print("Could not find module bom for %s" % module_info["module"])
@@ -89,7 +89,7 @@ def read_part_numbers():
     part_numbers = {}
     with open(part_numbers_lookup) as csvfile:
         for pn in csv.DictReader(csvfile, skipinitialspace=True):
-            key = pn['type'] + pn['value'] + pn['info']
+            key = pn['type'].strip() + pn['value'].strip() + pn['info'].strip()
             if key in part_numbers:
                 raise Exception('Duplicate part entry {pn[type]} {pn[value]} {pn[info]}'.format(pn=pn))
             else:
@@ -100,15 +100,15 @@ def combine_boms(module_boms, part_numbers):
     final_bom = {}
     for bom in module_boms:
         for part in bom:
-            key = part["type"] + part["value"] + part["info"]
-            quantity = int(part["quantity"])
+            key = part["type"].strip() + part["value"].strip() + part["info"].strip()
+            quantity = int(part["quantity"].strip())
             if key in final_bom:
                 final_bom[key]["quantity"] += quantity
             else:
                 final_bom[key] = {
-                    "type": part["type"],
-                    "value": part["value"],
-                    "info": part["info"],
+                    "type": part["type"].strip(),
+                    "value": part["value"].strip(),
+                    "info": part["info"].strip(),
                     "order code": part_numbers.get(key, ''),
                     "quantity": quantity
                 }
